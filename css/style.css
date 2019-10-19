@@ -1,0 +1,170 @@
+* {
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background-color: #FFF4FF;
+    min-height: 120px;
+    margin-bottom: 15px;
+}
+#brand-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Playfair Display SC', serif;
+    text-transform: uppercase;
+}
+.navbar-toggler {
+    margin-left: 30px;
+}
+#navbar-links {
+    width: 100%;
+}
+.navbar-nav {
+    width: 100%;
+}
+.nav-link {
+    width: 25%;
+    text-align: center;
+}
+.nav-link a {
+    /* text-transform: uppercase; */
+    font-family: 'Playfair Display SC', serif;
+    font-size: 20px;
+    color: #767171;
+    text-decoration: none;
+}
+.nav-link a:hover {
+    text-decoration: underline;
+    color: black;
+    font-size: 22px;
+}
+#current-link{
+    color: black;
+    font-size: 22px;
+}
+/* End of Footer */
+
+/* Footer */
+.panel-footer {
+    background-color: #FFF4FF;
+    margin-top: 15px;
+    padding: 40px;
+    color: black;
+}
+/* End of Footer */
+
+/* About Main Content */
+.about-main-content {
+    min-height: 700px;
+}
+.about-title {
+    color: black;
+    font-family: 'Lora', serif;
+    font-size: 40px;
+    margin: 20px 0 15px 0; 
+}
+.about-tile {
+    padding: 20px;
+}
+.about-des-tile {
+    padding: 100px 50px 0px 50px;
+}
+.about-description {
+    font-size: 1.3em;
+    font-family: 'Lora', serif;
+}
+.about-contact {
+    font-size: 1.1em;
+    margin-top: 30px;
+    font-family: 'Lora', serif;
+}
+.about-contact a {
+    color: gray;
+}
+/* End of About Main Content */
+
+/* Research Main Content */
+.research-title {
+    color: black;
+    font-family: 'Lora', serif;
+    font-size: 28px;
+    margin: 20px 0 10px 0; 
+}
+.research-description {
+    padding: 10px 25px 0 15px;
+    text-align: justify;
+}
+.research-description h3 {
+    font-family: 'Lora', serif;
+}
+.research-2, .research-1 {
+    margin-bottom: 40px;
+}
+.research-img-1, .research-img-2 {
+    margin: 10px 0 10px 0;
+}
+/* End of Research Main Content */
+
+/* Robots Main Content */
+.robot-1, .robot-2 {
+    padding: 15px 30px 15px 30px;
+}
+.robot-title {
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    text-align: center;
+}
+.robot-tile {
+    margin: 10px 0 20px 0; 
+}
+.robot-des {
+    font-style: italic; 
+}
+
+/* End of Robots Main Content*/
+
+/* Video Main Content */
+.video-title {
+    text-align: center;
+    color: black;
+    font-family: 'Lora', serif;
+    font-size: 28px;
+    margin: 30px 0 30px 0; 
+}
+.video-box {
+    margin: 50px 100px 50px 100px;
+}
+/* End of Video Main Content */
+
+@media (max-width: 767px) {
+    header {
+        min-height: 80px;
+    }
+    .nav-link {
+        width: 100%;
+    }
+    #brand-title {
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    .nav-link a{
+        font-size: 14px;
+    }
+    .nav-link a:hover {
+        font-size: 16px;
+    }
+    .about-des-tile {
+        margin-top: 20px;
+        padding-top: 0px; 
+    }
+    #current-link{
+        color: black;
+        font-size: 16px;
+    }
+    .robot-des {
+        font-size: 12px;
+    }
+}
