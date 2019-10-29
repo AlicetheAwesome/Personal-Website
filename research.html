@@ -56,10 +56,21 @@
 					</div>
 					<div class="col-md-6 col-xs-12 research-description">
 						<h3>Abstract</h3>
-						<p>Breast cancer is the most invasive cancer in women. However, segmentation of ultrasonic breast 
-							tumor images is highly dependent on skills and experience, which may lead to subjective diagnosis. 
-							In addition, it would be time-consuming for radiologists to review hundreds of images. 
-							Thus, in this research, we propose to use U-Net for segmenting ultrasonic breast tumor images.
+						<p>Breast cancer is the most invasive cancer in women. However, it requires a lot of time and experience for radiologists to 
+							diagnose an ultrasound breast tumor image. Thus, in this research, we propose to use semantic 
+							segmentation methods to assist doctors diagnose an ultrasound breast tumor image.
+						</p>
+						<p>			
+						We used the original ultrasound breast tumor images as our input, the segmented images as the ground truth, 
+							and built our machine learning model based on U-Net. We then compared our model’s accuracy with the 
+							FCN (Fully Convolutional Network) model. In addition, we applied median blur image processing before 
+							training to access its effect on our model's accuracy.
+						</p>
+						<p>
+						According to our results, the our model can achieve an accuracy of 80.58%, exceeding the 66.74% accuracy of the 
+						FCN model. However, applying median blur to the images for noise reduction cannot increase the accuracy of our model. 
+						Overall, the U-Net model can accurately predict the contour of the tumor.
+
 						</p>
 					</div>
 				</section>
