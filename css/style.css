@@ -1,6 +1,7 @@
 * {
     /*border: 1px solid black; */
     box-sizing: border-box;
+    font-family: 'Times New Roman', serif;
 }
 
 /* Header */
@@ -25,7 +26,7 @@ header {
     width: 100%;
 }
 .nav-link {
-    width: 25%;
+    width: 33%;
     text-align: center;
 }
 .nav-link a {
@@ -84,45 +85,16 @@ header {
 }
 /* End of About Main Content */
 
-/* Research Main Content */
-.research-title {
-    color: black;
-    font-family: 'Playfair', serif;
-    font-size: 28px;
-    margin: 20px 0 10px 0; 
-}
-.research-description {
-    padding: 10px 25px 0 15px;
-    text-align: justify;
-}
-.research-description h3 {
-    font-family: 'Playfair', serif;
-}
-.research-2, .research-1 {
-    margin-bottom: 40px;
-}
-.research-img-1, .research-img-2 {
-    margin: 10px 0 10px 0;
-}
-/* End of Research Main Content */
-
-/* Robots Main Content */
-.robot-1, .robot-2 {
-    padding: 15px 30px 15px 30px;
-}
-.robot-title {
-    font-family: 'Lora', serif;
-    font-size: 30px;
-    text-align: center;
-}
-.robot-tile {
-    margin: 10px 0 20px 0; 
-}
-.robot-des {
-    font-style: italic; 
+/* Resume Main Content */
+.resume-content {
+    font-size: 1.1rem;
+    margin-left: 150px;
 }
 
-/* End of Robots Main Content*/
+.resume-content h5 {
+    font-weight: bold;
+    text-decoration: underline;
+}
 
 /* Projects Main Content */
 .projects {
@@ -130,6 +102,12 @@ header {
 }
 .projects-title {
     font-family: "Playfair", serif;
+}
+.projects-content div, .projects-content span, .projects-content p, .projects-content a {
+    font-family: 'Helvetica', sans-serif;
+}
+section.row {
+    margin-top: 20px;
 }
 /* End of Projects Main Content */
 
