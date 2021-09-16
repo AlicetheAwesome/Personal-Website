@@ -29,11 +29,8 @@
 							<li class="nav-link">
 								<a href="index.html">About</a>
 							</li>
-							<li class="nav-link">
-								<a href="research.html">Research</a>
-                            </li>
                             <li class="nav-link">
-								<a href="resume.html">Resume</a>
+								<a href="resume.html">Skills</a>
 							</li>
 							<li class="nav-link">
 								<a href="projects.html" id="current-link">Projects</a>
@@ -46,19 +43,44 @@
         <!--End Header-->
 
 		<!--Main content-->
-		<div class="container-fluid projects">
+		<div class="container-fluid projects projects-content">
+			<section class="row">
+				<div class="col-md-6 col-xs-12">
+					<img src="images/research-1.png" alt="research-image" width="100%" class="research-img-1">
+					<span>Ultrasonic Breast Tumor images (left); Doctor Diagnosis of tumor contour (center); Deep Learning Prediction of tumor contour(right)</span>
+				</div>
+				<div class="col-md-6 col-xs-12">
+					<h3>Deep Learning for Ultrasound Breast Tumor Image Segmentation</h3>
+					<div>Breast cancer is the most invasive cancer in women, however, 
+						it requires a lot of time and experience for radiologists to diagnose an 
+						ultrasonic breast tumor image. Thus, in this research, we propose to use semantic 
+						segmentation methods to assist doctors diagnose an ultrasound breast tumor image. 
+						We used the original ultrasonic breast tumor image as our input, the segmented image 
+						as the ground truth, and built our model based on the U-Net model. We compared our 
+						model’s accuracy with Fully Convolutional Networks (FCN), and analyzed the effects of applying 
+						median blur to images before training. According to our results, the U-Net model can achieve 
+						an accuracy of 80.58%, exceeding the 66.74% accuracy of Fully Convolutional Networks (FCN). 
+						However, applying median blur to the images for noise reduction cannot increase the accuracy of 
+						our model. Overall, the U-Net model can accurately predict the contour of the tumor.
+					</div>
+					<a href="https://reurl.cc/GkqM0y">Research Poster</a>
+				</div>
+			</section>
+
 			<section class="row">
 				<div class="col-md-6 col-xs-12">
 					<img src="images/project-1.jpg" alt="project-1-img" width="100%">
 				</div>
 				<div class="col-md-6 col-xs-12">
-					<h3 class="projects-title">Multiplayer Bomb</h3>
+					<h3 class="projects-title">Online Bombing game</h3>
 					<div>
 						This is a two player online game made with with p5/ node.js/ express/ socket.io. It is a spin-off of my freshman year Art of Engineering Final Project.
 					</div>
 					<a href="https://github.com/yuehtingchen/multiplayer-bomb">View in Github</a>
 				</div>
 			</section>
+				
+			
 		</div>
 		<!--End of Main Content-->
 
